@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC32711A-2AEA-4981-8265-A852DB1ADB33}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WIPPY_CSGO</RootNamespace>
+    <ProjectName>ConvaCheats CSGO</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\ConvaCheats</OutDir>
+    <TargetName>ConvaCheats</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\ConvaCheats</OutDir>
+    <TargetName>ConvaCheats</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WIPPY_CSGO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;WIPPY_CSGO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AngleStuff.cpp" />
+    <ClCompile Include="AntiAim.cpp" />
+    <ClCompile Include="CAimbot.cpp" />
+    <ClCompile Include="CDebugOverlay.cpp" />
+    <ClCompile Include="CDraw.cpp" />
+    <ClCompile Include="CGameEventManager.cpp" />
+    <ClCompile Include="CGlowObjectManager.cpp" />
+    <ClCompile Include="checksum_crc.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CMath.cpp" />
+    <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="CSpread.cpp" />
+    <ClCompile Include="CValve.cpp" />
+    <ClCompile Include="CVARS.cpp" />
+    <ClCompile Include="Fakelag Fix\TimeSimulator.cpp" />
+    <ClCompile Include="FrameStage.cpp" />
+    <ClCompile Include="iniFile.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MD5.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="ModelExecute.cpp" />
+    <ClCompile Include="mouse.cpp" />
+    <ClCompile Include="MouseGUI.cpp" />
+    <ClCompile Include="netvars.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngleStuff.h" />
+    <ClInclude Include="AntiAim.h" />
+    <ClInclude Include="CAimbot.h" />
+    <ClInclude Include="CAwall.h" />
+    <ClInclude Include="CBaseCombatWeapon.h" />
+    <ClInclude Include="CBaseEntity.h" />
+    <ClInclude Include="CDebugOverlay.h" />
+    <ClInclude Include="CDraw.h" />
+    <ClInclude Include="CEngineClient.h" />
+    <ClInclude Include="CEnginePred.h" />
+    <ClInclude Include="CEntityList.h" />
+    <ClInclude Include="CGavemEventManager.h" />
+    <ClInclude Include="CGlobalVars.h" />
+    <ClInclude Include="CGlowObjectManager.h" />
+    <ClInclude Include="CInput.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientClass.h" />
+    <ClInclude Include="CMath.h" />
+    <ClInclude Include="CModelInfo.h" />
+    <ClInclude Include="Counter.h" />
+    <ClInclude Include="CSpread.h" />
+    <ClInclude Include="CTrace.h" />
+    <ClInclude Include="CTrace1.h" />
+    <ClInclude Include="CValve.h" />
+    <ClInclude Include="CVARS.h" />
+    <ClInclude Include="CWeaponData.h" />
+    <ClInclude Include="Detours.h" />
+    <ClInclude Include="Fakelag Fix\TimeSimulator.h" />
+    <ClInclude Include="FrameStage.h" />
+    <ClInclude Include="HLClient.h" />
+    <ClInclude Include="IGameEvent.h" />
+    <ClInclude Include="IGameEventListener2.h" />
+    <ClInclude Include="IGameEventManager.h" />
+    <ClInclude Include="iniFile.h" />
+    <ClInclude Include="IPanel.h" />
+    <ClInclude Include="ISurface.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MD5.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="ModelExecute.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="MouseGUI.h" />
+    <ClInclude Include="netvars.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="pAwall.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="VTable.h" />
+    <ClInclude Include="xor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

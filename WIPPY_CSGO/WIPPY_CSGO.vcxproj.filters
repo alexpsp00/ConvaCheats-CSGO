@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Aimbot">
+      <UniqueIdentifier>{8932b59a-7281-4fdb-a04b-bd644dd15efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{8fab1750-42a1-46dd-92e8-b218ab4b1fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMath">
+      <UniqueIdentifier>{3067642f-c102-463c-b9bc-d79e3c249978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Netvars">
+      <UniqueIdentifier>{c3da58fd-531d-491c-9eec-d04347004f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{c049436d-8efd-4895-aaf3-726d7ec8f613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{9cbaf07e-9186-4652-a70f-b440dda809aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks">
+      <UniqueIdentifier>{46abfb9e-372c-4daa-b344-7c7a49eb256c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Menu">
+      <UniqueIdentifier>{77ff1aee-0e2a-42d3-8b11-ebf189e537cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks\Stuff">
+      <UniqueIdentifier>{b12de9a9-ac8d-4c94-a8b7-d56c8ee3d136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fakelag Fix">
+      <UniqueIdentifier>{4d288bbf-7b44-4ee4-bf8c-4303f830b1c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAimbot.cpp">
+      <Filter>Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="CDraw.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="CMath.cpp">
+      <Filter>CMath</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebugOverlay.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlowObjectManager.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpread.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CValve.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameEventManager.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="CVARS.cpp">
+      <Filter>Hack\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Hack\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="iniFile.cpp">
+      <Filter>Hack\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Hack\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseGUI.cpp">
+      <Filter>Hack\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStage.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Hack\Hooks\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleStuff.cpp">
+      <Filter>Hack\Hooks\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelExecute.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Fakelag Fix\TimeSimulator.cpp">
+      <Filter>Fakelag Fix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAimbot.h">
+      <Filter>Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraw.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="CMath.h">
+      <Filter>CMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>CMath</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="CAwall.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCombatWeapon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebugOverlay.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineClient.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnginePred.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntityList.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlowObjectManager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpread.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace1.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CValve.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponData.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HLClient.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventListener2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventManager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="pAwall.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGavemEventManager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="VTable.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="CVARS.h">
+      <Filter>Hack\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Hack\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="iniFile.h">
+      <Filter>Hack\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Hack\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseGUI.h">
+      <Filter>Hack\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStage.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Hack\Hooks\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleStuff.h">
+      <Filter>Hack\Hooks\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelExecute.h">
+      <Filter>Hack\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fakelag Fix\TimeSimulator.h">
+      <Filter>Fakelag Fix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

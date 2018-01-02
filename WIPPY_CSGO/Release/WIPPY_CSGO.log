@@ -1,0 +1,228 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (WIPPY_CSGO.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AngleStuff.cpp
+  AntiAim.cpp
+  CAimbot.cpp
+  CDebugOverlay.cpp
+  CDraw.cpp
+  CGameEventManager.cpp
+  CGlowObjectManager.cpp
+  checksum_crc.cpp
+  Client.cpp
+  CMath.cpp
+  Counter.cpp
+  CSpread.cpp
+  CValve.cpp
+  TimeSimulator.cpp
+  FrameStage.cpp
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(2): error C2572: 'getvtable': redefinition of default argument: parameter 1
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(2): note: see declaration of 'getvtable'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(3): error C2084: function 'void **&getvtable(void *,std::size_t)' already has a body
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(2): note: see previous definition of 'getvtable'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(6): error C2572: 'getvtable': redefinition of default argument: parameter 1
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(6): note: see declaration of 'getvtable'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(7): error C2084: function 'const void **getvtable(const void *,std::size_t)' already has a body
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(6): note: see previous definition of 'getvtable'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(11): error C2572: 'getvfunc': redefinition of default argument: parameter 1
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(11): note: see declaration of 'getvfunc'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(14): error C2995: 'Fn getvfunc(const void *,std::size_t,std::size_t)': function template has already been defined
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(11): note: see declaration of 'getvfunc'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(22): error C2084: function 'void VectorSubtract(const Vector &,const Vector &,Vector &)' already has a body
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(21): note: see previous definition of 'VectorSubtract'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(32): error C2084: function 'void VectorAdd(const Vector &,const Vector &,Vector &)' already has a body
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(31): note: see previous definition of 'VectorAdd'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(122): error C2011: 'ClientFrameStage_t': 'enum' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(122): note: see declaration of 'ClientFrameStage_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(142): error C2011: 'KeyValues': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(142): note: see declaration of 'KeyValues'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(148): error C2011: 'mstudiobbox_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(148): note: see declaration of 'mstudiobbox_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(166): error C2011: 'mstudiohitboxset_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(166): note: see declaration of 'mstudiohitboxset_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(175): error C2011: 'studiohdr_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(175): note: see declaration of 'studiohdr_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(212): error C2371: 'color32': redefinition; different basic types
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(212): note: see declaration of 'color32'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(215): error C2011: 'ButtonCode_t': 'enum' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(215): note: see declaration of 'ButtonCode_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(348): error C2011: 'ModelRenderInfo_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\SDK.h(348): note: see declaration of 'ModelRenderInfo_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(8): error C2371: 'Oldproxy_t': redefinition; different basic types
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(8): note: see declaration of 'Oldproxy_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(11): error C2011: 'CNetworkedVariableManager': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(11): note: see declaration of 'CNetworkedVariableManager'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ClientClass.h(8): error C2011: 'ValveSDK::ClientClass': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ClientClass.h(8): note: see declaration of 'ValveSDK::ClientClass'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\HLClient.h(8): error C2011: 'ValveSDK::HLCLient': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\HLClient.h(8): note: see declaration of 'ValveSDK::HLCLient'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(4): error C2011: 'ValveSDK::OverrideType_t': 'enum' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(4): note: see declaration of 'ValveSDK::OverrideType_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(12): error C2011: 'ValveSDK::DrawModelState_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(12): note: see declaration of 'ValveSDK::DrawModelState_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(23): error C2011: 'ValveSDK::MaterialVarFlags_t': 'enum' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(23): note: see declaration of 'ValveSDK::MaterialVarFlags_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(62): error C2011: 'ValveSDK::IMaterial': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(62): note: see declaration of 'ValveSDK::IMaterial'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(115): error C2011: 'ValveSDK::Color': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(115): note: see declaration of 'ValveSDK::Color'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(376): error C2011: 'ValveSDK::IMaterialSystem': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(376): note: see declaration of 'ValveSDK::IMaterialSystem'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(386): error C2011: 'ValveSDK::IVModelRender': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(386): note: see declaration of 'ValveSDK::IVModelRender'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(411): error C2011: 'ValveSDK::IVRenderView': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(411): note: see declaration of 'ValveSDK::IVRenderView'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(427): error C2011: 'ValveSDK::ISurface': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\ISurface.h(427): note: see declaration of 'ValveSDK::ISurface'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IPanel.h(4): error C2011: 'ValveSDK::IPanel': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IPanel.h(4): note: see declaration of 'ValveSDK::IPanel'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(3): error C2365: 'deagle': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(3): note: see declaration of 'deagle'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(4): error C2365: 'p2000': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(4): note: see declaration of 'p2000'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(5): error C2365: 'fiveseven': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(5): note: see declaration of 'fiveseven'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(6): error C2365: 'glock': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(6): note: see declaration of 'glock'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(7): error C2365: 'dualelites': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(7): note: see declaration of 'dualelites'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(8): error C2365: 'ak': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(8): note: see declaration of 'ak'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(9): error C2365: 'aug': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(9): note: see declaration of 'aug'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(10): error C2365: 'awp': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(10): note: see declaration of 'awp'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(11): error C2365: 'famas': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(11): note: see declaration of 'famas'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(12): error C2365: 'g3sg1': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(12): note: see declaration of 'g3sg1'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(13): error C2365: 'galil': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(13): note: see declaration of 'galil'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(14): error C2365: 'p250': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(14): note: see declaration of 'p250'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(15): error C2365: 'tec9': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(15): note: see declaration of 'tec9'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(16): error C2365: 'm249': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(16): note: see declaration of 'm249'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(17): error C2365: 'm4': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(17): note: see declaration of 'm4'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(18): error C2365: 'm4a1s': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(18): note: see declaration of 'm4a1s'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(19): error C2365: 'mac10': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(19): note: see declaration of 'mac10'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(20): error C2365: 'p90': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(20): note: see declaration of 'p90'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(21): error C2365: 'ump45': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(21): note: see declaration of 'ump45'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(22): error C2365: 'ppbizon': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(22): note: see declaration of 'ppbizon'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(23): error C2365: 'negev': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(23): note: see declaration of 'negev'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(24): error C2365: 'mp7': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(24): note: see declaration of 'mp7'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(25): error C2365: 'mp9': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(25): note: see declaration of 'mp9'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(26): error C2365: 'scar30': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(26): note: see declaration of 'scar30'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(27): error C2365: 'sg553': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(27): note: see declaration of 'sg553'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(28): error C2365: 'ssg08': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(28): note: see declaration of 'ssg08'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(29): error C2365: 'goldknife': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(29): note: see declaration of 'goldknife'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(30): error C2365: 'knife': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(30): note: see declaration of 'knife'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(31): error C2365: 'flashgren': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(31): note: see declaration of 'flashgren'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(32): error C2365: 'hegren': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(32): note: see declaration of 'hegren'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(33): error C2365: 'smoke': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(33): note: see declaration of 'smoke'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(34): error C2365: 'molotov': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(34): note: see declaration of 'molotov'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(35): error C2365: 'incendiary': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(35): note: see declaration of 'incendiary'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(36): error C2365: 'decoygren': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(36): note: see declaration of 'decoygren'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(37): error C2365: 'bomb': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(37): note: see declaration of 'bomb'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(38): error C2365: 'nova': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(38): note: see declaration of 'nova'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(39): error C2365: 'xm1014': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(39): note: see declaration of 'xm1014'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(40): error C2365: 'sawedoff': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(40): note: see declaration of 'sawedoff'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(41): error C2365: 'mag7': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(41): note: see declaration of 'mag7'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(42): error C2365: 'zeus': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(42): note: see declaration of 'zeus'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(43): error C2365: 'usp_s': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(43): note: see declaration of 'usp_s'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(49): error C2011: 'ValveSDK::CBaseCombatWeapon': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CBaseCombatWeapon.h(49): note: see declaration of 'ValveSDK::CBaseCombatWeapon'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEngineClient.h(6): error C2011: 'ValveSDK::con_nprint_s': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEngineClient.h(6): note: see declaration of 'ValveSDK::con_nprint_s'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEngineClient.h(14): error C2011: 'ValveSDK::CEngineClient': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEngineClient.h(14): note: see declaration of 'ValveSDK::CEngineClient'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(5): error C2365: 'ValveSDK::JOYSTICK_MAX_BUTTON_COUNT': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(5): note: see declaration of 'ValveSDK::JOYSTICK_MAX_BUTTON_COUNT'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(6): error C2365: 'ValveSDK::JOYSTICK_POV_BUTTON_COUNT': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(6): note: see declaration of 'ValveSDK::JOYSTICK_POV_BUTTON_COUNT'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(7): error C2365: 'ValveSDK::JOYSTICK_AXIS_BUTTON_COUNT': redefinition; previous definition was 'enumerator'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(7): note: see declaration of 'ValveSDK::JOYSTICK_AXIS_BUTTON_COUNT'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(19): error C2011: 'ValveSDK::ButtonCode_t': 'enum' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(19): note: see declaration of 'ValveSDK::ButtonCode_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(196): error C2011: 'ValveSDK::CInput': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(196): note: see declaration of 'ValveSDK::CInput'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(255): error C2011: 'ValveSDK::ConVar': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(255): note: see declaration of 'ValveSDK::ConVar'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(303): error C2011: 'ValveSDK::ICVar': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CInput.h(303): note: see declaration of 'ValveSDK::ICVar'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\MD5.h(9): error C2371: 'MD5Context_t': redefinition; different basic types
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\MD5.h(9): note: see declaration of 'MD5Context_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CGlobalVars.h(4): error C2011: 'ValveSDK::CGlobalVars': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CGlobalVars.h(4): note: see declaration of 'ValveSDK::CGlobalVars'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(4): error C2011: 'ValveSDK::surfacephysicsparams_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(4): note: see declaration of 'ValveSDK::surfacephysicsparams_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(14): error C2011: 'ValveSDK::surfaceaudioparams_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(14): note: see declaration of 'ValveSDK::surfaceaudioparams_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(28): error C2011: 'ValveSDK::surfacesoundnames_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(28): note: see declaration of 'ValveSDK::surfacesoundnames_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(46): error C2011: 'ValveSDK::surfacesoundhandles_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(46): note: see declaration of 'ValveSDK::surfacesoundhandles_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(64): error C2011: 'ValveSDK::surfacegameprops_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(64): note: see declaration of 'ValveSDK::surfacegameprops_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(84): error C2011: 'ValveSDK::surfacedata_t': 'struct' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(84): note: see declaration of 'ValveSDK::surfacedata_t'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(94): error C2011: 'ValveSDK::IPhysicsSurfaceProps': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(94): note: see declaration of 'ValveSDK::IPhysicsSurfaceProps'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(104): error C2011: 'ValveSDK::CTrace': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CTrace1.h(104): note: see declaration of 'ValveSDK::CTrace'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(6): error C2011: 'ValveSDK::IMoveHelper': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(6): note: see declaration of 'ValveSDK::IMoveHelper'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(16): error C2011: 'ValveSDK::CPrediction': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(16): note: see declaration of 'ValveSDK::CPrediction'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(31): error C2011: 'ValveSDK::CGameMovement': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\CEnginePred.h(31): note: see declaration of 'ValveSDK::CGameMovement'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEvent.h(4): error C2011: 'ValveSDK::IGameEvent': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEvent.h(4): note: see declaration of 'ValveSDK::IGameEvent'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEventListener2.h(4): error C2011: 'ValveSDK::IGameEventListener2': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEventListener2.h(4): note: see declaration of 'ValveSDK::IGameEventListener2'
+c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEventManager.h(4): error C2011: 'ValveSDK::IGameEventManager': 'class' type redefinition
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\IGameEventManager.h(4): note: see declaration of 'ValveSDK::IGameEventManager'
+FrameStage.cpp(98): error C2027: use of undefined type 'CNetworkedVariableManager'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(11): note: see declaration of 'CNetworkedVariableManager'
+FrameStage.cpp(98): error C2228: left of '.GetOffset' must have class/struct/union
+FrameStage.cpp(99): error C2027: use of undefined type 'CNetworkedVariableManager'
+  c:\users\alex\documents\visual studio 2015\projects\convacheats csgo\wippy_csgo\netvars.h(11): note: see declaration of 'CNetworkedVariableManager'
+FrameStage.cpp(99): error C2228: left of '.GetOffset' must have class/struct/union
+FrameStage.cpp(99): fatal error C1003: error count exceeds 100; stopping compilation
+  iniFile.cpp
+  main.cpp
+  MD5.cpp
+  ModelExecute.cpp
+  mouse.cpp
+  Compiling...
+  MouseGUI.cpp
+  netvars.cpp
+  Panel.cpp
+  Utils.cpp

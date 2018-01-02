@@ -1,0 +1,28 @@
+﻿Build started 28/1/2016 2:01:06 PM.
+     1>Project "E:\Visual Studio\WIPPY_CSGO\WIPPY_CSGO\WIPPY_CSGO.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIPPY_CSGO_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CAimbot.cpp CDebugOverlay.cpp CDraw.cpp CGameEventManager.cpp CGlowObjectManager.cpp checksum_crc.cpp Client.cpp CMath.cpp Counter.cpp CSpread.cpp CValve.cpp main.cpp MD5.cpp netvars.cpp Panel.cpp Utils.cpp
+         Utils.cpp
+         Panel.cpp
+         netvars.cpp
+         MD5.cpp
+         main.cpp
+         CValve.cpp
+         CSpread.cpp
+         Counter.cpp
+         CMath.cpp
+         Client.cpp
+         checksum_crc.cpp
+         CGlowObjectManager.cpp
+         CGameEventManager.cpp
+         CDraw.cpp
+         CDebugOverlay.cpp
+         CAimbot.cpp
+         Generating Code...
+     1>e:\visual studio\wippy_csgo\wippy_csgo\vector.h(258): error C4716: 'Vector::NormalizeInPlace' : must return a value
+     1>e:\visual studio\wippy_csgo\wippy_csgo\vector.h(258): error C4716: 'Vector::NormalizeInPlace' : must return a value
+     1>Done Building Project "E:\Visual Studio\WIPPY_CSGO\WIPPY_CSGO\WIPPY_CSGO.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.99
